@@ -18,4 +18,3 @@ git clone https://gitlab.com/Pranavkapoor001/proprietary_vendor_asus.git vendor/
 
 git clone https://gitlab.com/Pranavkapoor001/kernel_asus_sdm660.git kernel/asus/sdm660
 
-git fetch https://gerrit.aospa.co/AOSPA/android_hardware_qcom_audio refs/changes/01/10701/2 && git cherry-pick FETCH_HEAD hardware/qcom/audio
