@@ -12,8 +12,7 @@ curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
 
 # Make Repo executable
 chmod a+x ~/bin/repo
-mkdir crDroid
-cd crDroid
+
 
 
 # Repo init command, that -device,-mips,-darwin,-notdefault part will save you more time and storage to sync, add more according to your rom and choice. Optimization is welcomed! Let's make it quit, and with depth=1 so that no unnecessary things.
