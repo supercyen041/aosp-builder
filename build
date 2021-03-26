@@ -50,4 +50,4 @@ brunch X00T \
 	&& send_zip=$(up out/target/product/X00T/*zip) && tg $id "Build Succeed!
 $send_zip" \
 	|| tmate -S /tmp/tmate.sock new-session -d && tmate -S /tmp/tmate.sock wait tmate-ready && send_shell=$(tmate -S /tmp/tmate.sock display -p '#{tmate_ssh}') && tg $id "Build Failed" && tg $id "$send_shell" && ccache -s && sleep 2h
-ccache -s # Let's print ccache statistics finally
+ccache -s # Let's print ccache statistics finally test
